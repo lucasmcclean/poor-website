@@ -1,3 +1,14 @@
+   body {
+      display: flex;             /* enable flexbox */
+      flex-direction: column;    /* stack children vertically (column) */
+      min-height: 100vh;         /* body fills the viewport height */
+      gap: 16px;                 /* spacing between direct children */
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: #f7fafc;
+      color: #111827;
+      padding: 20px;             /* optional page padding */
+    }
+
 h1 {
   font-size: 12;
 }
@@ -14,4 +25,9 @@ h1 {
 
 p {
   font-style: italic;
+}
+
+button{
+  padding: 5%;
+  font-size: x-large;
 }
