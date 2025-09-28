@@ -7,6 +7,8 @@
       background: #f7fafc;
       color: #111827;
       padding: 20px;             /* optional page padding */
+      justify-content: center;
+      align-items: center;
     }
 
 h1 {
@@ -25,9 +27,14 @@ h1 {
 
 p {
   font-style: italic;
+  width: 50%;
 }
 
 button{
   padding: 5%;
   font-size: x-large;
+}
+
+img{
+  width: 50%;
 }
